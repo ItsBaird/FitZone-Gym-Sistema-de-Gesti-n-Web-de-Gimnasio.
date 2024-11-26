@@ -1,0 +1,87 @@
+.anuncio img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*ajusta la imagen al tamaño del contenedor*/
+}
+/*Productos Destacados*/
+.products-image {
+    object-fit: cover; /* Evita que la imagen se deforme, cubre el contenedor */
+    height: 200px; /* Establece una altura fija para las imágenes */
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    border-radius: 5px; /* Opcional, le da un pequeño redondeo a las imágenes */
+}
+
+/* Ajustes del contenedor de noticias */
+.feature-products {
+    max-width: 100%; /* Puedes ajustar el tamaño máximo del contenedor */
+    margin: 0 auto; /* Centra la sección en pantallas grandes */
+    padding: 20px;
+}
+
+
+
+/* Ajustes responsivos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .products-image {
+        height: 200px; /* Reduce la altura de la imagen en pantallas más pequeñas */
+    }
+}
+
+
+/*Sedes*/
+.sedes .btn-primary{
+    background-color: rgb(54, 172, 235)!important;
+    color: black !important;
+}
+
+/* Asegura que el contenido dentro de las tarjetas esté centrado */
+.card-body {
+    text-align: center;
+}
+
+.card-title, .card-text {
+    margin-bottom: 1rem;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Opcional: Ajusta el tamaño del botón en la tarjeta */
+.card-body .btn-primary {
+    display: block;
+    margin: 0 auto;
+}
+
+/*Noticias*/
+.news .card-header{
+    display: flex;
+    justify-content: center;
+}
+
+.news-image {
+    object-fit: cover; /* Evita que la imagen se deforme, cubre el contenedor */
+    height: 300px; /* Establece una altura fija para las imágenes */
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    border-radius: 5px; /* Opcional, le da un pequeño redondeo a las imágenes */
+}
+
+/* Ajustes del contenedor de noticias */
+.news {
+    max-width: 1200px; /* Puedes ajustar el tamaño máximo del contenedor */
+    margin: 0 auto; /* Centra la sección en pantallas grandes */
+    padding: 20px;
+}
+
+.news .btn-primary{
+    background-color: rgb(54, 172, 235)!important;
+    color: black !important;
+}
+
+/* Ajustes responsivos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .news-image {
+        height: 200px; /* Reduce la altura de la imagen en pantallas más pequeñas */
+    }
+}

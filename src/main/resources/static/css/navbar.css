@@ -1,0 +1,62 @@
+/* Estilo de la barra de navegación */
+.navbar {
+    background-color: #333 !important;
+}
+
+.navbar-nav {
+    display: flex !important;
+    justify-content: center !important;
+    flex-grow: 1; /* Permite que el contenedor ocupe el espacio disponible */
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px; /* Opcional: Agrega espacio entre los elementos */
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: rgb(153, 208, 237) !important; /* Cambia el color cuando se pone el cursor sobre el enlace */
+}
+
+/* Estilo para el menú desplegable (dropdown) */
+.dropdown-menu {
+    background-color: #333 !important; /* Mantén el fondo oscuro */
+    border: none !important; /* Eliminar borde por defecto */
+}
+
+/* Estilo de las opciones del dropdown */
+.dropdown-item {
+    color: white !important; /* Texto blanco */
+}
+
+/* Cambiar solo el color del texto cuando se pasa el ratón sobre un item del dropdown */
+.dropdown-item:hover {
+    background-color: #4a90e2 !important; /* Azul claro al pasar el mouse */
+    color: white !important;
+}
+
+/* Estilo personalizado para el ícono de menú hamburguesa */
+.navbar-toggler {
+    border-color: transparent;
+}
+
+.navbar-toggler-icon {
+    width: 30px !important;
+    height: 3px !important;
+    background-color: #00b2ff !important; /* Color del ícono */
+    display: block !important;
+    margin: 5px auto !important; /* Espaciado entre las líneas del menú */
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+    content: '' !important;
+    display: block !important;
+    width: 30px !important;
+    height: 3px !important;
+    background-color: #00b2ff !important;
+    margin: 5px auto !important;
+}

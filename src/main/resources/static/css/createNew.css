@@ -1,0 +1,74 @@
+body {
+    color: white;
+}
+
+header {
+    text-align: center !important;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #00b2ff !important;
+    font-size: 2.5rem !important;
+}
+
+.form-control {
+    border-radius: 0.5rem !important;
+    background-color: #333 !important;
+    color: white !important;
+    border: 1px solid #00b2ff !important;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #00b2ff !important;
+}
+
+.btn-primary {
+    background-color: #00b2ff !important;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0088cc;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.mb-2 {
+    margin-bottom: 1rem;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.row {
+    justify-content: center;
+}
+
+.col-sm-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.alert-custom {
+    width: 50% !important;  /* Puedes ajustar el porcentaje según el ancho que quieras */
+    margin: 0 auto !important;  /* Centrar horizontalmente */
+}
+

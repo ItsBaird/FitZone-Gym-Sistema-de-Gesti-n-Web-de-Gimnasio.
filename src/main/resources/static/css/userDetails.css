@@ -1,0 +1,88 @@
+body {
+    background-color: #212529 !important;
+}
+
+ h3, h4, ul li {
+    color: white !important;
+}
+
+h1 {
+     color: #00b2ff !important;
+ }
+
+/* Aplica fondo oscuro en la tabla con clase personalizada */
+.table-dark-custom {
+    background-color: #343a40 !important;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #343a40 !important;
+
+}
+
+.table th, .table td {
+    text-align: left;
+    padding: 12px 15px;
+    background-color: #343a40 !important;
+    color: white !important;
+}
+
+.table thead {
+    background-color: #00b2ff;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #454d55 !important;
+}
+
+.table tbody tr:hover {
+    background-color: #575f66;
+}
+
+.table th {
+    color: white;
+}
+
+.table td {
+    color: #d1d1d1;
+}
+
+.btn {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0088cc; /* Un tono más oscuro del azul */
+    transform: translateY(-2px); /* Efecto de levitación */
+}
+
+/* Estilo para la lista de roles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.8rem;
+    color: #d1d1d1;
+}
+
+hr {
+    border-color: #00b2ff;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos específicos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

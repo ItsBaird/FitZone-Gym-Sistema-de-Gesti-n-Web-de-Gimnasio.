@@ -1,0 +1,82 @@
+body {
+    background-color: #343a40 !important;
+    color: white !important;
+}
+
+/* Header */
+header h2 {
+    color: #00b2ff !important;
+    font-size: 2.5rem !important;
+}
+
+hr {
+    border: 1px solid #00b2ff !important;
+}
+
+/* Formulario */
+form {
+    background-color: #454d55 !important;
+    padding: 30px !important;
+    border-radius: 8px !important;
+    color: white !important;
+}
+
+/* Etiquetas y campos */
+label {
+    font-weight: bold;
+    color: white !important;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    background-color: #343a40 !important;
+    color: white !important;
+    border: 1px solid #00b2ff !important;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+    border-color: #00b2ff;
+    box-shadow: 0 0 5px #00b2ff;
+}
+
+/* Botones */
+.btn-info {
+    background-color: #00b2ff;
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: #009acb;
+}
+
+.btn-outline-light {
+    border: 1px solid #00b2ff;
+    color: #00b2ff;
+}
+
+.btn-outline-light:hover {
+    background-color: #00b2ff;
+    color: white;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    label {
+        font-size: 0.9rem;
+    }
+
+    input,
+    select {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+}

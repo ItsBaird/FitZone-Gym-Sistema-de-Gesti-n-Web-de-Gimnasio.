@@ -1,0 +1,124 @@
+.is-invalid {
+    border-color: #dc3545 !important;
+    background-color: #f8d7da !important;
+}
+
+.invalid-feedback {
+    color: #dc3545 !important;
+    font-size: 0.875em !important;
+}
+
+body {
+    color: white;
+    background-color: #343a40 !important;
+}
+
+header {
+    text-align: center !important;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #00b2ff !important;
+    font-size: 2.5rem !important;
+}
+
+.form-control {
+    border-radius: 0.5rem !important;
+    background-color: #333 !important;
+    color: white !important;
+    border: 1px solid #00b2ff !important;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #00b2ff !important;
+}
+
+.btn-primary {
+    background-color: #00b2ff !important;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0088cc;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.mb-2 {
+    margin-bottom: 1rem;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+.container {
+    padding: 0 15px !important; /* Agregar padding lateral al contenedor */
+}
+
+.form-select{
+    background-color: #333 !important;
+    color: white !important;
+}
+
+.row {
+    justify-content: center;
+}
+
+.col-sm-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.form-group {
+    margin-bottom: 30px !important;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.container{
+    padding: 40px !important;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 0 15px; /* Añadir padding en pantallas pequeñas */
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .form-control {
+        font-size: 0.9rem;
+    }
+
+    .btn-primary, .btn-danger {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

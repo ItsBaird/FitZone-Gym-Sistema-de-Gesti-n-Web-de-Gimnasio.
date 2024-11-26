@@ -1,0 +1,105 @@
+/* General Styling */
+body {; /* Fondo oscuro */
+    color: #f8f9fa; /* Texto claro */
+}
+
+
+header h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold !important;
+    color:#00b2ff !important;
+}
+
+
+/* Carrusel */
+.img-sedesur .carousel-inner img {
+    object-fit: contain; /* Ajusta las imágenes proporcionalmente sin recortarlas */
+    max-height: 500px; /* Altura máxima para el carrusel */
+    width: 100%; /* Asegura que las imágenes ocupen todo el ancho */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+/* Sección de Información */
+.info {
+    padding: 50px 0;
+    color: #f8f9fa;
+}
+
+.info h2 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.info p {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    color: #ddd !important;
+}
+
+.info a.btn-primary {
+    background-color: #4a90e2;
+    border-color: #4a90e2;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.info a.btn-primary:hover {
+    background-color: #357ab7;
+    border-color: #357ab7;
+}
+
+/* Artículos */
+.info-general, .info-descripcion {
+    padding: 20px !important;
+    background-color: #495057;
+    border-radius: 8px !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+    margin-bottom: 30px !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .carousel-inner img {
+        max-height: 400px;
+    }
+
+    .info {
+        padding: 30px 15px;
+    }
+
+    .info-general, .info-descripcion {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .info a.btn-primary {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .info h2 {
+        font-size: 1.5rem;
+    }
+
+    .info p {
+        font-size: 0.95rem;
+    }
+}

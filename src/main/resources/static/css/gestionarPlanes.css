@@ -1,0 +1,103 @@
+body {
+    color: white !important;
+}
+
+h1 {
+    color: #00b2ff !important;
+    text-align: center !important;
+    margin-top: 30px !important;
+    font-size: 2.5rem;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.btn-primary, .btn-primary:hover {
+    background-color: #00b2ff !important;
+    border-color: #00b2ff !important;
+}
+
+.btn-add-plan {
+    background-color: #00b2ff!important; ;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    color: white !important;
+    border-radius: 0.5rem;
+}
+
+.btn-add-plan:hover {
+    background-color: #009acb !important;
+}
+
+.table {
+    background-color: #454d55 !important;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: white !important;
+}
+
+.table th, .table td {
+    text-align: center;
+    background-color: #343a40 !important;
+    color: white !important;
+}
+
+.btn{
+    color: white!important;
+}
+
+.btn-details {
+    background-color: #00b2ff !important;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.btn-details:hover {
+    background-color: #009acb !important;
+    text-decoration: none;
+}
+
+.input-group {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.input-group .form-control {
+    border-radius: 0.5rem;
+}
+
+.input-group .btn-primary {
+    background-color: #00b2ff;
+    border: none;
+}
+
+.input-group .btn-primary:hover {
+    background-color: #009acb;
+}
+
+.no-records {
+    text-align: center;
+    color: #dc3545;
+}
+
+/* Responsividad para dispositivos móviles */
+@media (max-width: 768px) {
+    .table th, .table td {
+        font-size: 0.9rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        margin-top: 30px;
+    }
+}

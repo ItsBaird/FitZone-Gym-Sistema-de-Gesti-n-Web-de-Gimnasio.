@@ -1,0 +1,35 @@
+body {
+    color: #ffffff !important; /* Texto blanco */
+}
+
+.container{
+    padding: 30px!important;
+}
+
+
+.card {
+    border: none;
+}
+
+.card-body {
+    color: white!important;
+
+}
+.btn-primary {
+    background-color: #4a90e2 !important; /* Azul medio claro */
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #3a7bc1 !important; /* Azul un poco más oscuro */
+}
+.detail-label {
+    font-weight: bold !important;
+}
+.detail-content {
+    margin-left: 10px;
+}
+.bordered-section {
+    border: 1px solid #5c5c5c; /* Borde gris */
+    padding: 10px;
+    border-radius: 5px;
+}

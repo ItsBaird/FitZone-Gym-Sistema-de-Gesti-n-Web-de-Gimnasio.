@@ -1,0 +1,75 @@
+h1, h2 {
+    color: #00b2ff;
+}
+
+hr {
+    border: 1px solid #00b2ff;
+}
+
+.table {
+    background-color: #454d55;
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead {
+    background-color: #00b2ff;
+    color: black;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #50575e;
+}
+
+.badge.bg-success {
+    background-color: #28a745;
+}
+
+.badge.bg-danger {
+    background-color: #dc3545;
+}
+
+.card {
+    border-radius: 8px;
+}
+
+.card-body {
+    background-color: #454d55;
+    border-radius: 8px;
+}
+
+.form-label {
+    color: #00b2ff;
+    font-weight: bold;
+}
+
+.form-select {
+    background-color: #343a40;
+    color: white;
+    border: 1px solid #00b2ff;
+}
+
+.form-select:focus {
+    border-color: #00b2ff;
+    box-shadow: 0 0 5px #00b2ff;
+}
+
+.btn-info {
+    background-color: #00b2ff;
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: #009acb;
+}
+
+.btn-outline-light {
+    border: 1px solid #00b2ff;
+    color: #00b2ff;
+}
+
+.btn-outline-light:hover {
+    background-color: #00b2ff;
+    color: white;
+}

@@ -1,0 +1,50 @@
+/* Estilos personalizados */
+body {
+    background-color: #343a40 !important;
+    color: white !important;
+}
+
+h1 {
+    color: #00b2ff !important;
+    text-align: center !important;
+    margin-top: 30px !important;
+    font-size: 2.5rem;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.btn-primary, .btn-primary:hover {
+    background-color: #00b2ff !important;
+    border-color: #00b2ff !important;
+}
+
+.table {
+    background-color: #454d55;
+    border-radius: 8px;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.btn-view {
+    background-color: #00b2ff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-view:hover {
+    background-color: #009acb !important;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .table th, .table td {
+        font-size: 0.9rem;
+    }
+}

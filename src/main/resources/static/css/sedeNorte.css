@@ -1,0 +1,117 @@
+/* General Styling */
+body {
+    background-color: #343a40;  /* Fondo oscuro de Bootstrap 5 (bg-dark) */
+    color: #f8f9fa;  /* Color de texto claro para contraste */
+}
+
+/* Navbar y Header */
+header {
+    background-color: #333;  /* Fondo oscuro para el encabezado */
+}
+
+header h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold !important;
+    color:#00b2ff !important;
+}
+
+/* Carousel Styles */
+.img-sedenorte .carousel-inner img {
+    object-fit: contain;  /* Las imágenes se ajustan proporcionalmente sin recortarse */
+    max-height: 500px;  /* Limitar la altura máxima de las imágenes */
+    width: 100%;  /* Asegura que las imágenes ocupen el ancho completo */
+}
+
+/* Controles de navegación del Carousel */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(255, 255, 255, 0.5);  /* Íconos de control de carrusel más visibles */
+}
+
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    background-color: rgba(255, 255, 255, 0.75);  /* Íconos con mayor visibilidad al pasar el ratón */
+}
+
+/* Sección de Información */
+.info {
+    background-color: #343a40;  /* bg-dark para el fondo */
+    padding: 50px 0;  /* Espaciado alrededor de la sección */
+    border-top: 1px solid #ddd;  /* Borde superior para separar las secciones */
+    color: #f8f9fa;  /* Texto claro para contrastar con el fondo oscuro */
+}
+
+.info h2 {
+    font-size: 1.75rem;
+    color: #f8f9fa;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.info p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ddd;  /* Texto más claro para una mejor legibilidad */
+}
+
+.info a.btn-primary {
+    background-color: #4a90e2;
+    border-color: #4a90e2;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.info a.btn-primary:hover {
+    background-color: #357ab7;
+    border-color: #357ab7;
+}
+
+/* Estilo de los artículos */
+.info-general, .info-descripcion {
+    padding: 20px;
+    background-color: #495057;  /* Fondo más claro para los artículos */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.info-general h2, .info-descripcion p {
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .carousel-inner img {
+        max-height: 400px;  /* Menor altura para imágenes en móviles */
+    }
+
+    .info {
+        padding: 30px 15px;  /* Menos espaciado en pantallas pequeñas */
+    }
+
+    .info-general, .info-descripcion {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .info a.btn-primary {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .info h2 {
+        font-size: 1.5rem;  /* Títulos más pequeños en pantallas muy pequeñas */
+    }
+
+    .info p {
+        font-size: 0.95rem;  /* Texto más pequeño en pantallas pequeñas */
+    }
+}

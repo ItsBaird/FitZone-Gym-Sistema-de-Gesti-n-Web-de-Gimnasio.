@@ -1,0 +1,57 @@
+body {
+    background-color: #343a40 !important; /* Gris oscuro */
+    color: white;
+}
+
+header h1, header h2 {
+    color: #00aaff; /* Azul medio claro */
+}
+
+header hr {
+    border: 1px solid #00aaff;
+}
+
+button {
+    background-color: #007bff; /* Azul claro */
+    border: none;
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Azul más oscuro en hover */
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+button a:hover {
+    color: #ffdd57; /* Color de texto en hover */
+}
+
+/* Hacer los botones responsivos */
+@media (min-width: 576px) {
+    .btn-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Centrado de texto en la cabecera */
+h1, h2 {
+    text-align: center;
+}
+
+/* Estilo del contenedor */
+.container {
+    margin-top: 20px;
+}

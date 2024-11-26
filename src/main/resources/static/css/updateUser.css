@@ -1,0 +1,60 @@
+body {
+    color: white !important;
+}
+
+h1 {
+    color: #00b2ff !important;
+    font-size: 2rem;
+}
+
+hr {
+    border: 1px solid #00b2ff !important;
+}
+
+.card {
+    border: none !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+}
+
+.card-body {
+    background-color: #454d55 !important;
+    color: white !important;
+}
+
+.form-label {
+    color: #00b2ff;
+    font-weight: bold;
+}
+
+.form-control,
+.form-select {
+    background-color: #343a40 !important;
+    color: white !important;
+    border: 1px solid #00b2ff !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #00b2ff !important;
+    box-shadow: 0 0 5px #00b2ff !important;
+}
+
+.btn-info {
+    background-color: #00b2ff !important;
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: #009acb !important;
+}
+
+.btn-outline-light {
+    border: 1px solid #00b2ff;
+    color: #00b2ff;
+}
+
+.btn-outline-light:hover {
+    background-color: #00b2ff;
+    color: white;
+}
